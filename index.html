@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="media/style.css">
+    <script src="https://kit.fontawesome.com/fadd3c2109.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <nav>
+            <img src="media/images/logo.png" class="logo">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Web App Pentration Tester</p>
+            <h1><span>Welcome</span>! i'm <span>Youssef Hayyani</span>, and I'm thrilled to have you here.</h1>
+        </div>
+    </div>
+</header>
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="media/images/user1.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">Who I Am <img src="/media/images/logo.png"></h1>
+                <p>I'm youssef hayyani, a web front-end designer and web app penetration tester. I love creating beautiful and intuitive user interfaces, and ensuring web apps are secure. In my free time, I create 2D games with the same care and attention to detail as my professional work. Let's work together to create something amazing!
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('certificates')">Certificates </p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web App Pentest</span><br>Identify Vulnerabilities</li>
+                        <li><span>Web Dev</span><br>Create Web Applications</li>
+                        <li><span>Game Dev</span><br>I develop 2D games</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="certificates">
+                    <ul>
+                        <li><span>2020</span><br>CEH certification</li>
+                        <li><span>2021</span><br>eJPT</li>
+                        <li><span>2022</span><br>eWPT</li>
+                        <li><span>soon..</span><br>eWPTX</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services">
+    <div class="container">
+        <h1 class="sub-title">My Servises</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-bug"></i>
+                <h2>Web App Penetration Testing</h2>
+                <p>I can help you identify and fix any security issues in your web application through comprehensive penetration testing. With my expertise in web app security, you can be confident that your website is secure from potential attacks.</p>
+                <a href="#">learn more..</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I specialize in designing and developing beautiful, responsive websites that are optimized for the best user experience. Whether you need a simple website or a complex online platform, I can help you create a website that meets your needs.</p>
+                <a href="#">learn more..</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Game Development</h2>
+                <p>I have a passion for creating fun and engaging 2D games that captivate audiences. From game design and development to graphics and sound effects, I can help you create a unique game that will entertain your users for hours.</p>
+                <a href="#">learn more..</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="media/images/user1.jpeg">
+                <div class="layer">
+                    <h3>coming soon!</h3>
+                    <p>Stay tuned for a comprehensive list of my previous projects, showcasing my skills and creativity. Contact me for any questions or potential projects in the meantime.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="media/images/user1.jpeg">
+                <div class="layer">
+                    <h3>coming soon!</h3>
+                    <p>Stay tuned for a comprehensive list of my previous projects, showcasing my skills and creativity. Contact me for any questions or potential projects in the meantime.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="media/images/user1.jpeg">
+                <div class="layer">
+                    <h3>coming soon!</h3>
+                    <p>Stay tuned for a comprehensive list of my previous projects, showcasing my skills and creativity. Contact me for any questions or potential projects in the meantime.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i></i>youssef16hay@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+212 641 923 860</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="media/images/back2.jpeg" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Copyright © Made with <i class="fas fa-heart"></i> by youssef</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+</body>
+</html>
